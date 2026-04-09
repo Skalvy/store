@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Online Store</title>
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Online Store</h1>
+            <nav>
+               <a href="#catalog">Каталог</a>
+               <a href="#checkout">Оформление заказа</a>
+               <a href="cart.html" class="btn">Корзина</a>
+            </nav>
+        </header>
+
+        <section id="catalog">
+            <h2>Каталог товаров</h2>
+        <div class="products">
+
+        <div class="product">
+        <img src="https://avatars.mds.yandex.net/get-mpic/16055235/2a000001969cc9edba44ed5a1c286487ef01/orig" alt="Смартфон">
+            <h3>Oppo Find X8 Ultra</h3>
+               <p class="price">800 000 тг</p>
+               <a href="#cart" class="btn">Добавить в корзину</a>
+        </div>
+
+        <div class="product">
+        <img src="https://avatars.mds.yandex.net/get-mpic/5116414/2a0000019a6d8dc123ec886885bae7b89578/orig" alt="Ноутбук">
+            <h3>Asus Rog Strix GT35</h3>
+               <p class="price">750 000 тг</p>
+               <a href="#cart" class="btn">Добавить в корзину</a>
+        </div>
+
+        <div class="product">
+        <img src="https://basket-33.wbbasket.ru/vol6968/part696894/696894098/images/big/1.webp" alt="Наушники">
+           <h3>Fifine H13</h3>
+               <p class="price">20 000 тг</p>
+               <a href="#cart" class="btn">Добавить в корзину</a>
+        </div>
+
+        </div>
+        </section>
+
+        <section id="cart">
+              <h2>Корзина</h2>
+               <div class="cart-item">Смартфон — 800 000 тг</div>
+               <div class="cart-item">Ноутбук — 750 000 тг</div>
+                <p class="total"><strong>Итого: 1 550 000 тг</strong></p>
+                <a href="#checkout" class="btn">Оформить заказ</a>
+        </section>
+
+        <section id="checkout">
+              <h2>Оформление заказа</h2>
+              <form action="#" method="post">
+                <input type="text" placeholder="Имя" required>
+                <input type="tel" placeholder="Телефон" required>
+                <input type="text" placeholder="Адрес доставки" required>
+                <button type="submit">Подтвердить заказ</button>
+            </form>
+                <p>Спасибо! Ваш заказ будет обработан.</p>
+        </section>
+    </body>
+</html>
